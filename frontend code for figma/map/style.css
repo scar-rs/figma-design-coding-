@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.map{
+    position: absolute;
+    width: 1280px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+}
+.title{
+    position: absolute;
+    width: 538px;
+    height: 64px;
+    left: 399px;
+    top: 17px;
+    
+    background: linear-gradient(91.53deg, #0C1121 51.29%, #20263C 51.3%, #000000 51.3%);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.7);
+    border-radius: 50px;
+}
+
+.tit{
+    position: absolute;
+    width: 338px;
+    height: 41px;
+    left: 100px;
+    top: 12px;
+    
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 41px;
+    /* identical to box height */
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.e1{
+    position: absolute;
+    width: 606px;
+    height: 540px;
+    left: 0px;
+    top: 0px
+}
+
+.e2{
+    position: absolute;
+    width: 606px;
+    height: 540px;
+    left: 1198px;
+    top: 0px
+}
+
+.e3{
+    position: absolute;
+    width: 606px;
+    height: 540px;
+    left: 35px;
+    top: 643px;
+}
+
+.mapouter{
+    position: absolute;
+    text-align: right;
+    width: 680px;
+    height: 480px;
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 43.28%;
+    right: 3.59%;
+    top: 17.5%;
+    bottom: 5.13%;
+    border: 4px solid #1B7E4F;
+    border-radius: 23px;
+}
+
+.gmap_canvas{
+    overflow: hidden;
+    background: none;
+    width: 672px;
+    height: 472px;
+    border-radius: 23px;
+}
+
+.gmap_iframe
+{
+    width: 672px;
+    height: 472px;
+    border-radius: 23px;
+}
+
+.curvol{
+    position: absolute;
+    width: 260px;
+    height: 32px;
+    left: 98px;
+    top: 160px;
+    
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.name{
+    position: absolute;
+    width: 329px;
+    height: 52px;
+    left: 86px;
+    top: 192px;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.56));
+    border-radius: 9px;
+    background: #CDE5A4;
+}
+
+.n{
+    position: absolute;
+    width: 129px;
+    height: 24px;
+    left: 100px;
+    top: 16px;
+    
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.enq{
+    position: absolute;
+    width: 369px;
+    height: 72px;
+    left: 60px;
+    top: 350px;
+    
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.phone{
+    position: absolute;
+    width: 409px;
+    height: 80px;
+    left: 47px;
+    top: 470px;
+    align-items: center;
+    
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.64));
+    border-radius: 9px;
+    background: #CDE5A4;
+}
+
+.call{
+    position: absolute;
+    left: 25px;
+    top: 28px;
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+.pimage{
+    position: absolute;
+    width: 50px;
+    height: 46px;
+    left: 120px;
+    top: 14px;
+}
+
+.text{
+    position: absolute;
+    width: 168px;
+    height: 29px;
+    left: 200px;
+    top: 24px;
+    
+    font-family: 'Franklin Gothic Medium';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+.vroom1{
+    position: absolute;
+    left: 19.61%;
+    right: 68.83%;
+    top: 1.3%;
+    bottom: 90.76%;
+    
+}
+
+.vroom2{
+    position: absolute;
+    left: 76.17%;
+    right: 12.27%;
+    top: 1.66%;
+    bottom: 90.4%;
+}
